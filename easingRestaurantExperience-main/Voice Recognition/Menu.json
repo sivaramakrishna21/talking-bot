@@ -1,0 +1,30 @@
+{
+    "Desserts": [
+        {
+            "Name": "VanillaCake",
+            "Price": "100"
+        },
+        {
+            "Name": "ChocolateCake",
+            "Price": "200"
+        },
+        {
+            "Name": "cake",
+            "Price": "150"
+        },
+        {
+            "Name": "Icecream",
+            "Price": "80"
+        }
+    ],
+    "Snacks": [
+        {
+            "Name": "Frenchfries",
+            "Price": "120"
+        },
+        {
+            "Name": "Burgers",
+            "Price": "150"
+        }
+    ]
+}

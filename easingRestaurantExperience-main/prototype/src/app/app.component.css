@@ -1,0 +1,111 @@
+#Order-details {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 2mm;
+  margin: 0 auto;
+  width: 200mm;
+  background: #FFF;
+}
+#Order-details ::selection {
+  background: #f31544;
+  color: #FFF;
+}
+#Order-details ::moz-selection {
+  background: #f31544;
+  color: #FFF;
+}
+#Order-details h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+#Order-details h2 {
+  font-size: 1.9em;
+  text-align: center;
+}
+#Order-details h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+#Order-details p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.2em;
+}
+#Order-details #top, #Order-details #mid, #Order-details #bot {
+  /* Targets all id with 'col-' */
+  border-bottom: 1px solid #EEE;
+}
+#Order-details #top {
+  min-height: 150px;
+  background-color: green;
+}
+#Order-details #mid {
+  min-height: 150px;
+  
+}
+#cen{
+  padding-left: 300px;
+}
+#Order-details #bot {
+  min-height: 50px;
+}
+#Order-details #top .logo {
+  height: 60px;
+  width: 100px;
+  background: url(logo1.png) no-repeat;
+  background-size: 60px 60px;
+}
+#Order-details .clientlogo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+  background-size: 60px 60px;
+  border-radius: 50px;
+}
+#Order-details .info {
+  display: block;
+  margin-left: 0;
+}
+#Order-details .title {
+  float: right;
+}
+#Order-details .title p {
+  text-align: right;
+}
+#Order-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#Order-details .tabletitle {
+  font-size: 0.7em;
+  background: #EEE;
+}
+#Order-details .service {
+  border-bottom: 10px solid #EEE;
+}
+#Order-details .item {
+  width: 64mm;
+}
+
+#Order-details .itemtext {
+  font-size: 1.5em;
+  text-align: center;
+}
+#Order-details #legalcopy {
+  margin-top: 5mm;
+}
+
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  
+}
